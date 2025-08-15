@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>✨️Art Shop - Shades of My Mind✨️</title>
+    <meta name="description" content="Purchase artworks from Faryaal's Shades of My Mind collection">
+    <meta name="author" content="Faryaal">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Shades of My Mind Art Shop ✨️</h1>
+        <nav>
+            <a href="index.html">Back to Gallery</a>
+            <a href="about.html">About My Art</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Shop Items Section -->
+        <section class="shop-items">
+            <h2>Available Artworks</h2>
+            <div class="gallery">
+                
+                <div class="art-item">
+                    <img src="11th_jan.png" alt="Winter's Whisper">
+                    <p><strong>Winter's Whisper</strong></p>
+                    <p>Price: $85</p>
+                    <p>A serene winter scene that whispers the secrets of frost-kissed mornings.</p>
+                    <button onclick="window.location.href='mailto:faryaal@example.com?subject=Purchase Winter\'s Whisper'">Contact to Buy</button>
+                </div>
+
+                
+                <div class="art-item">
+                    <img src="29th_jan.jpg" alt="Harry Potter">
+                    <p><strong>Harry Potter</strong></p>
+                    <p>Price: $100</p>
+                    <p>A magical tribute to the wizarding world that sparks imagination.</p>
+                    <button onclick="window.location.href='mailto:faryaal@example.com?subject=Purchase Harry Potter'">Contact to Buy</button>
+                </div>
+
+               
+                <div class="art-item">
+                    <img src="eye.png" alt="The Burdened Gaze">
+                    <p><strong>The Burdened Gaze</strong></p>
+                    <p>Price: $80</p>
+                    <p>An expressive portrait capturing the weight of unseen stories.</p>
+                    <button onclick="window.location.href='mailto:faryaal@example.com?subject=Purchase The Burdened Gaze'">Contact to Buy</button>
+                </div>
+
+                
+                <div class="art-item">
+                    <img src="between_two_souls.jpg" alt="Between Two Souls">
+                    <p><strong>Between Two Souls</strong></p>
+                    <p>Price: $95</p>
+                    <p>A heartfelt piece exploring connection and distance between souls.</p>
+                    <button onclick="window.location.href='mailto:faryaal@example.com?subject=Purchase Between Two Souls'">Contact to Buy</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Homework 2:Feedback Form -->
+        <section class="feedback">
+            <h2>Leave Your Feedback</h2>
+            <form action="#" method="POST">
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your thoughts here..."></textarea><br><br>
+
+                <p>Satisfaction Level:</p>
+                <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+                <label for="satisfied">Satisfied</label><br>
+                <input type="radio" id="neutral" name="satisfaction" value="neutral">
+                <label for="neutral">Neutral</label><br>
+                <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+                <label for="unsatisfied">Unsatisfied</label><br><br>
+
+                <p>Interests (select all that apply):</p>
+                <input type="checkbox" id="sketching" name="interests" value="sketching">
+                <label for="sketching">Sketching</label><br>
+                <input type="checkbox" id="digital" name="interests" value="digital">
+                <label for="digital">Digital Art</label><br>
+                <input type="checkbox" id="painting" name="interests" value="painting">
+                <label for="painting">Painting</label><br><br>
+
+                <input type="submit" value="Submit Feedback">
+            </form>
+        </section>
+
+        <!-- homework 3:GET vs POST Explanation -->
+        <section class="get-post">
+            <h2>GET vs POST Methods in Forms</h2>
+            <p>
+                <strong>GET:</strong> Sends form data as part of the URL. Useful for searches or sharing links, but less secure.<br>
+                <strong>POST:</strong> Sends form data in the request body. More secure and ideal for sending sensitive information, like feedback or purchases.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Faryaal Sakhra</p>
+    </footer>
+</body>
+</html>
